@@ -11,6 +11,10 @@ h1 {
   text-align: center;
 }
 
+#text, #call, #fax, #email-but {
+  display: list-item;
+}
+
 /* =========== LAYOUT STYLES ========*/
 
 
