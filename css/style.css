@@ -3,17 +3,15 @@ html {
   background-color: #CBCFDB;
 }
 
-label, input {
+.personal label, #f-name, #l-name, #submit, #age, #gender, #email, #phone {
   display: block;
+  background-color: yellow;
 }
 
 h1 {
   text-align: center;
 }
 
-#text, #call, #fax, #email-but {
-  display: list-item;
-}
 
 /* =========== LAYOUT STYLES ========*/
 
