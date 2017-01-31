@@ -18,15 +18,16 @@
         <form method="get" action="#null">
           <fieldset>
             <legend>Sign-up</legend>
+
               <section id="personal">
                 <h2>Personal Info</h2>
-                  <label for="f-name">First Name</label>
+                  <label for="f-name">First Name*</label>
                   <input type="text" name="f-name" id="f-name"/>
 
-                  <label for="l-name">Last Name</label>
+                  <label for="l-name">Last Name*</label>
                   <input type="text" name="l-name" id="l-name"/>
 
-                  <label for="age">Age</label>
+                  <label for="age">Age*</label>
                   <input type="number" name="age" id="age"/>
 
                   <label for="gender">Gender</label>
@@ -35,7 +36,7 @@
 
               <section id="contact">
                 <h2>Contact Info</h2>
-                  <label for="email">E-mail Address</label>
+                  <label for="email">E-mail Address*</label>
                   <input type="email" name="email" id="email"/>
 
                   <label for="phone">Perferred Phone Number</label>
@@ -47,21 +48,25 @@
 
                   <input type="radio" id="msg"/>
                   <label for="msg">Text Message</label>
+
                   <input type="radio" id="call"/>
                   <label for="call">Phone Call</label>
+
                   <input type="radio" id="email-but"/>
                   <label for="email">E-mail</label>
+
                   <input type="radio" id="fax"/>
                   <label for="fax">Fax</label>
               </section>
 
                 <input type="submit" name="submit" id="submit" value="Submit" />
-              </fieldset>
-            </form>
-          </article>
+                <p> * indicates required fields </p>
+            </fieldset>
+          </form>
+        </article>
 
-      <footer>
-        <p> Site Designed by Stephen J. Grzenia </p>
-      </footer>
-    </body>
-  </html>
+    <footer>
+      <p> Site Designed by Stephen J. Grzenia </p>
+    </footer>
+  </body>
+</html>
