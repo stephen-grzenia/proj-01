@@ -3,22 +3,12 @@ html {
   background-color: #CBCFDB;
 }
 
-label {
-  display: inline-block;
+label, input {
+  display: block;
 }
 
 /* =========== LAYOUT STYLES ========*/
-#f-name {
-  display: inline-block;
-}
 
-#l-name {
-  display: inline-block;
-}
-
-#age {
-  display: inline-block;
-}
 
 /* =========== INTERACTIONS ========*/
 
