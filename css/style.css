@@ -2,7 +2,9 @@
 
 
 /* =========== LAYOUT STYLES ========*/
-
+label {
+  display: inline-block;
+}
 
 
 /* =========== INTERACTIONS ========*/
