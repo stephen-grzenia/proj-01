@@ -8,6 +8,10 @@ html {
   background-color: yellow;
 }
 
+.contact #msg, #call, #fax, #email-but {
+  display: block;
+}
+
 h1 {
   text-align: center;
 }
