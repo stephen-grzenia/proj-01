@@ -1,11 +1,24 @@
 /* =========== BASE STYLES ===========*/
+html {
+  background-color: #CBCFDB;
+}
 
-
-/* =========== LAYOUT STYLES ========*/
 label {
   display: inline-block;
 }
 
+/* =========== LAYOUT STYLES ========*/
+#f-name {
+  display: inline-block;
+}
+
+#l-name {
+  display: inline-block;
+}
+
+#age {
+  display: inline-block;
+}
 
 /* =========== INTERACTIONS ========*/
 
