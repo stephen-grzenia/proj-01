@@ -26,37 +26,49 @@
 
               <section class="personal">
                 <h2>Basic Information</h2>
-                  <label for="f-name">Full Name*</label>
-                  <input type="text" name="name" id="name" required="true" placeholder="John Smith"/>
-
-                  <label for="age">Age*</label>
-                  <input type="number" name="age" id="age" required="true"/>
-
-                  <label for="gender">Gender</label>
-                  <input type="text" name="gender" id="gender"/>
+                <ol>
+                  <li id="fullname">
+                    <label for="f-name">Full Name*</label>
+                    <input type="text" name="name" id="name" required="true" placeholder="John Smith"/>
+                  </li>
+                  <li>
+                    <label for="age">Age*</label>
+                    <input type="number" name="age" id="age" required="true"/>
+                  </li>
+                  <li>
+                    <label for="gender">Gender</label>
+                    <input type="text" name="gender" id="gender"/>
+                  </li>
+                </ol>
               </section>
 
               <section class="contact">
                 <h2>Contact Info</h2>
-                  <label for="email">E-mail Address*</label>
-                  <input type="email" name="email" id="email" required="true" placeholder="example@gmail.com"/>
-
-                  <label for="phone">Perferred Phone Number</label>
-                  <input type="tel" name="phone" id="phone"/>
-
-                  <p>
-                    Mark your perferred method of contact:
-                  </p>
-
-                  <input type="radio" id="msg"/>
-                  <label for="msg">Text Message</label>
-
-                  <input type="radio" id="call"/>
-                  <label for="call">Phone Call</label>
-
-                  <input type="radio" id="email-but"/>
-                  <label for="email">E-mail</label>
-
+                  <ol>
+                    <li>
+                      <label for="email">E-mail Address*</label>
+                      <input type="email" name="email" id="email" required="true" placeholder="example@gmail.com"/>
+                    </li>
+                    <li>
+                      <label for="phone">Perferred Phone Number</label>
+                      <input type="tel" name="phone" id="phone"/>
+                    </li>
+                    <p>
+                      Mark your perferred method of contact:
+                    </p>
+                    <li>
+                      <input type="radio" id="msg"/>
+                      <label for="msg">Text Message</label>
+                    </li>
+                    <li>
+                      <input type="radio" id="call"/>
+                      <label for="call">Phone Call</label>
+                    </li>
+                    <li>
+                      <input type="radio" id="email-but"/>
+                      <label for="email">E-mail</label>
+                    </li>
+                  <ol>
               </section>
 
                 <input type="submit" name="submit" id="submit" value="Submit Form" />
