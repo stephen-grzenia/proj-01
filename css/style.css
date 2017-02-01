@@ -1,6 +1,7 @@
 /* =========== BASE STYLES ===========*/
 html {
   background-color: #CBCFDB;
+  list-style-type: none;
 }
 
 .personal label, #name, #submit, #age, #gender, #email, #phone {
