@@ -3,7 +3,7 @@ html {
   background-color: #CBCFDB;
 }
 
-.personal label, #f-name, #l-name, #submit, #age, #gender, #email, #phone {
+.personal label, #name, #submit, #age, #gender, #email, #phone {
   display: block;
   background-color: yellow;
 }
