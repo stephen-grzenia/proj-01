@@ -1,6 +1,10 @@
 /* =========== BASE STYLES ===========*/
 html {
   background-color: #CBCFDB;
+
+}
+
+ul {
   list-style-type: none;
 }
 
