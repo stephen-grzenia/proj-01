@@ -16,6 +16,9 @@ h1 {
   text-align: center;
 }
 
+.contact p {
+  background-color: blue;
+}
 
 /* =========== LAYOUT STYLES ========*/
 
