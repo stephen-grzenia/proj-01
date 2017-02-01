@@ -7,10 +7,11 @@ ul, li {
   list-style-type: none;
 }
 
-.personal label, #name, #submit, #age, #gender, #email, #phone {
+.personal label, #name, #submit, #age, #tag, #email, #phone {
   display: block;
-  /*background-color: yellow;*/
+  background-color: yellow;
   box-sizing: border-box;
+  width: 100%
 }
 
 .contact #msg, #call, #fax, #email-but {
@@ -26,12 +27,11 @@ h1 {
 }
 
 .signup-desc ul {
-  /*background-color: green;*/
+  background-color: green;
   font-size: 1em;
   margin-left: 0.2em;
   margin-right: 0.5em;
 }
-
 /* =========== LAYOUT STYLES ========*/
 
 
