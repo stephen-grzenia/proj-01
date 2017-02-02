@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <title> Home Page Sign-up </title>
     <link rel="stylesheet" media="screen" href="css/style.css" />
   </head>
@@ -47,7 +48,7 @@
                   <ol>
                     <li id="input-email">
                       <label for="email">E-mail Address*</label>
-                      <input type="email" name="email" id="email" required="true" placeholder="name@example.com"/>
+                      <input type="email" name="email" id="email" required="true" placeholder="name@example.com" pattern="^.+@.+$"/>
                     </li>
                     <li id="input-phone">
                       <label for="phone">Perferred Phone Number</label>
@@ -80,5 +81,8 @@
     <footer>
       <p> Site Designed by Stephen J. Grzenia </p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
   </body>
 </html>

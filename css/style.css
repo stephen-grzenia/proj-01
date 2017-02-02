@@ -36,7 +36,14 @@ h1 {
 
 
 /* =========== INTERACTIONS ========*/
+.hasjs input[type="submit"] {
+  position: absolute;
+  left: -100000px;
+}
 
+.hasjs input[type="submit"].active {
+  position: static;
+}
 
 
 /* =========== DECORATIONS =========*/
