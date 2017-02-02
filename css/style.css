@@ -14,11 +14,6 @@ ul, li {
   width: 100%
 }
 
-fieldset {
-  border: #af3333 solid;
-  border-radius: 1em;
-}
-
 .contact #msg, #call, #fax, #email-but {
   display: inline-flex;
 }
@@ -52,7 +47,10 @@ h1 {
 
 
 /* =========== DECORATIONS =========*/
-
+fieldset {
+  border: #af3333 solid;
+  border-radius: 1em;
+}
 
 
 /* =========== OTHER SCREEN SIZES ======*/
