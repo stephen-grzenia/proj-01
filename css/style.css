@@ -1,4 +1,5 @@
 /* =========== BASE STYLES ===========*/
+/* base screen size is iphone S5/Google Pixel*/
 html {
   background-color: #CBCFDB;
 }
@@ -7,23 +8,19 @@ ul, li {
   list-style-type: none;
 }
 
-.personal label, #name, #submit, #age, #tag, #email, #phone {
+.signup label, input {
   display: block;
   background-color: yellow;
   box-sizing: border-box;
   width: 100%
 }
 
-.contact #msg, #call, #fax, #email-but {
-  display: inline-flex;
-}
-
 h1 {
   text-align: center;
 }
 
-.contact p {
-  /*background-color: blue;*/
+ .signup p {
+  background-color: blue;
 }
 
 .signup-desc ul {
