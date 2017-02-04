@@ -8,7 +8,7 @@ ul, li {
   list-style-type: none;
 }
 
-.signup label, input {
+.form-fields label, input {
   display: block;
   background-color: yellow;
   box-sizing: border-box;
@@ -23,12 +23,6 @@ h1 {
   background-color: blue;
 }
 
-.signup-desc ul {
-  background-color: green;
-  font-size: 1em;
-  margin-left: 0.2em;
-  margin-right: 0.5em;
-}
 /* =========== LAYOUT STYLES ========*/
 
 
