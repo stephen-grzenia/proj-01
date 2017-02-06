@@ -17,13 +17,16 @@ footer {
 .form-fields label,
 .form-fields input {
   display: block;
-  background-color: yellow;
   box-sizing: border-box;
   width: 50%
 }
 
 #submit {
-    font-size: 20px;
+  padding: 0.625em;
+  width: 9.375em;
+  margin-top: 5%;
+  font-size: 18px;
+  text-align: center;
 }
 
 h1 {
@@ -37,7 +40,7 @@ h1 {
 }
 
  .signup p {
-  background-color: blue;
+
 }
 
 /* =========== LAYOUT STYLES ========*/
@@ -61,8 +64,8 @@ fieldset {
 }
 
 #submit {
-  color: #FFFFFF;
-  background-color: #93C757;
+  color: #000000;
+  background-color: #FFD700;
 }
 
 
