@@ -1,9 +1,9 @@
 /* =========== BASE STYLES ===========*/
 /* base screen size is iphone S5/Google Pixel*/
 html {
-  background-color: #CBCFDB;
   font-size: 15px; /* 18 px = 1em minor third*/
   line-height: 21.6px;
+  background-image: url("../images/background.jpg");
 }
 
 ul,
@@ -21,6 +21,10 @@ footer {
   box-sizing: border-box;
   width: 65%;
 
+}
+
+#fieldset {
+  background-color: #CBCFDB;
 }
 
 #submit {
