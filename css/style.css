@@ -66,6 +66,9 @@ fieldset {
 #submit {
   color: #000000;
   background-color: #FFD700;
+  border-color: #000000;
+  border-radius: 5%;
+  border-style: solid;
 }
 
 
