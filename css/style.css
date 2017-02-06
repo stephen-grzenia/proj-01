@@ -3,6 +3,7 @@
 html {
   background-color: #CBCFDB;
   font-size: 18px;
+  line-height: 21.6px;
 }
 
 ul,
@@ -18,13 +19,14 @@ footer {
 .form-fields input {
   display: block;
   box-sizing: border-box;
-  width: 50%
+  width: 60%
 }
 
 #submit {
   padding: 0.625em;
   width: 9.375em;
   margin-top: 5%;
+  margin-left: 20%;
   font-size: 18px;
   text-align: center;
 }
