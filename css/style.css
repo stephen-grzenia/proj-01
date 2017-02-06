@@ -66,7 +66,8 @@ h2 {
 
 /* =========== DECORATIONS =========*/
 fieldset {
-  border: #af3333 solid;
+  border: gold solid;
+  background-color: ;
   border-radius: 1em;
 }
 
