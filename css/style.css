@@ -19,7 +19,11 @@ footer {
   display: block;
   background-color: yellow;
   box-sizing: border-box;
-  width: 100%
+  width: 50%
+}
+
+#submit {
+    font-size: 20px;
 }
 
 h1 {
