@@ -25,18 +25,37 @@
                 <h2>Basic Information</h2>
                 <ol>
                   <li id="input-name">
-                    <label for="name">Full Name*</label>
+                    <label for="name">Full Name:*</label>
                     <input type="text" name="name" id="name" required="true" placeholder="John JingleHiemer Smith"/>
                   </li>
                   <li id="input-age">
-                    <label for="age">Date of Birth*</label>
-                    <input type="date" name="age" id="age" required="true"/>
+                    <label for="age">Date of Birth:*</label>
+                    <select name="select">
+                      <option value="January" selected>January</option>
+                      <option value="Feb">Feb</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">Aug</option>
+                      <option value="Sep">Sep</option>
+                      <option value="Oct">Oct</option>
+                      <option value="Nov">Nov</option>
+                      <option value="Dec">Dec</option>
+                    </select>
+                    <select>
+                      <option value="1" selected>1</option>
+                    </select>
+                    <select>
+                      <option value="1995" selected>1995</option>
+                    </select>
                   </li>
                 </ol>
                 <h2>Contact Information</h2>
                   <ol>
                     <li id="input-email">
-                      <label for="email">E-mail Address*</label>
+                      <label for="email">E-mail Address:*</label>
                       <input type="email" name="email" id="email" required="true" placeholder="name@example.com" pattern="^.+@.+$"/>
                     </li>
                   </ol>
