@@ -22,6 +22,7 @@ li {
 
 footer {
   padding-top: 50%;
+  color: white;
 }
 
 legend {
@@ -35,6 +36,11 @@ legend {
   display: block;
   box-sizing: border-box;
   width: 65%;
+}
+
+.signup {
+  width: 50%;
+  margin-left: ;
 }
 
 .ckbox label,
@@ -63,15 +69,6 @@ legend {
 
 
 /* =========== INTERACTIONS ========*/
-.hasjs input[type="submit"] {
-  position: absolute;
-  left: -100000px;
-}
-
-.hasjs input[type="submit"].active {
-  position: static;
-}
-
 
 /* =========== DECORATIONS =========*/
 fieldset {
