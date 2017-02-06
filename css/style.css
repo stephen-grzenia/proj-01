@@ -20,7 +20,10 @@ footer {
   display: block;
   box-sizing: border-box;
   width: 65%;
+}
 
+legend {
+  margin-top: 1.5%;
 }
 
 #fieldset {
