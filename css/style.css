@@ -2,7 +2,7 @@
 /* base screen size is iphone S5/Google Pixel*/
 html {
   background-color: #CBCFDB;
-  font-size: 18px;
+  font-size: 15px; /* 18 px = 1em minor third*/
   line-height: 21.6px;
 }
 
@@ -19,7 +19,8 @@ footer {
 .form-fields input {
   display: block;
   box-sizing: border-box;
-  width: 60%
+  width: 65%;
+
 }
 
 #submit {
@@ -33,7 +34,11 @@ footer {
 
 h1 {
   text-align: center;
-  font-size: 31.104px;
+  font-size: 25.92px;
+}
+
+h2 {
+  font-size: 18px;
 }
 
 .ckbox label,
@@ -68,10 +73,14 @@ fieldset {
 #submit {
   color: #000000;
   background-color: #FFD700;
-  border-color: #000000;
+  border-color: black;
   border-radius: 5%;
   border-style: solid;
+  font-weight: bolder;
 }
 
-
+.signup-desc p{
+  background-color: black;
+  color: #FFFFFF;
+}
 /* =========== OTHER SCREEN SIZES ======*/
