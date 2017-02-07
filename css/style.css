@@ -93,9 +93,17 @@ fieldset {
 @media screen and (min-width: 1000px)
 {
 
+html {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 31.92px;
+}
+
 #main {
-  min-height: 800px;
-       margin: 0px;
+  min-height: 500px;
+       margin-top: 15%;
        padding: 0px;
        display: flex;
        flex-flow: row;
@@ -104,7 +112,6 @@ fieldset {
   margin: 4px;
       padding-left: 5px;
       padding-right: 5px;
-      padding-top: 250px;
       border-radius: 7pt;
       flex: 3 1 60%;
       order: 1;
@@ -114,7 +121,6 @@ fieldset {
       margin: 4px;
       padding-left: 5px;
       padding-right: 5px;
-      padding-top: 250px;
       flex: 1 6 20%;
       order: 2;
   }
