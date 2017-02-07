@@ -7,7 +7,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 
-
 /* =========== BASE STYLES ===========*/
 /* base screen size is iphone S5/Google Pixel*/
 html {
@@ -19,32 +18,30 @@ html {
 h1 {
   text-align: center;
   font-size: 25.92px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 h2 {
   font-size: 18px;
+  padding: 0.2em;
 }
 
 ul,
 li {
   list-style-type: none;
-  margin-left: -20%;
+  padding-left: 0.5em;
 }
 
 footer {
   padding-top: 50%;
-  color: white;
 }
 
 legend {
-  margin-top: .5em;
+  margin-top: 2em;
+  margin-left: 1em;
   font-style: italic;
   text-decoration: underline;
-}
-
-.form-fields,
-.ckbox {
-  margin-left: 10%;
 }
 
 .form-fields label,
@@ -55,17 +52,23 @@ legend {
 }
 
 .signup {
-  width: 100%;
-  margin-left: ;
+  width: 98%;
+  margin-left: 1%;
 }
 
 .ckbox label,
 .ckbox input {
   display: inline;
+  margin-top: 1em;
 }
 
  .signup p {
+margin-bottom: 1em;
+}
 
+.signup-desc p {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #fieldset {
@@ -74,9 +77,10 @@ legend {
 
 #submit {
   padding: 0.625em;
+  margin-bottom: 1em;
   width: 9.375em;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 22.5%;
   font-size: 18px;
   text-align: center;
 }
@@ -88,7 +92,6 @@ legend {
 /* =========== DECORATIONS =========*/
 fieldset {
   border: black solid;
-  background-color: ;
   border-radius: 1em;
 }
 
@@ -102,7 +105,8 @@ fieldset {
 }
 
 .signup-desc p{
-  color: #FFFFFF;
+  color: white;
+  text-shadow: 0 0 3px black;
 }
 
 /* =========== OTHER SCREEN SIZES ======*/
@@ -111,29 +115,27 @@ fieldset {
 
 html {
   font-size: 21.6px;
+  line-height: 25.92px;
 }
 
 h1 {
   font-size: 44.79px;
+  line-height: 53.75px;
 }
 
 h2 {
   font-size: 31.104px;
+  line-height: 37.32px;
 }
 
 ul,
 li {
   list-style-type: none;
-  margin-left: -10%;
+  padding-bottom: 1em;
 }
 
 footer {
 padding-top: 10%;
-}
-
-.form-fields,
-.ckbox {
-  margin-left: 0%;
 }
 
 #main {
@@ -153,12 +155,18 @@ padding-top: 10%;
   }
 
   #main > .signup {
-      margin: 4px;
+      margin: 6px;
       padding-left: 5px;
       padding-right: 5px;
       flex: 1 6 30%;
       order: 2;
   }
+
+  #submit {
+    margin-left: 30%;
+  }
+
+}
 
 @media screen and (min-width: 600px) /*tablets or very large phones*/
 {
