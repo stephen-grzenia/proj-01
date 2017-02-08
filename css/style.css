@@ -10,20 +10,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* =========== BASE STYLES ===========*/
 /* base screen size is iphone S5/Google Pixel*/
 html {
-  font-size: 15px; /* 18 px = 1em minor third*/
-  line-height: 21.6px;
+  font-size: 0.833em; /*15px @ 18px*/ /* 18 px = 1em minor third*/
+  line-height: 1em;
   background-image: url("../images/skyline.jpg");
 }
 
 h1 {
   text-align: center;
-  font-size: 25.92px;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 1.728em;
+  line-height: 2.0736em;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.44em;
+  line-height: 1.728em;
   padding: 0.2em;
 }
 
@@ -78,10 +78,10 @@ margin-bottom: 1em;
 #submit {
   padding: 0.625em;
   margin-bottom: 1em;
-  width: 9.375em;
+  width: 8em;
   margin-top: 5%;
   margin-left: 22.5%;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align: center;
 }
 
