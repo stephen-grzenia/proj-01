@@ -10,6 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* =========== BASE STYLES ===========*/
 /* base screen size is iphone S5/Google Pixel*/
 html {
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 0.833em; /*15px @ 18px*/ /* 18 px = 1em minor third*/
   line-height: 1em;
   background-image: url("../images/skyline.jpg");
@@ -39,7 +40,7 @@ footer {
 
 legend {
   margin-top: 2em;
-  margin-left: 1em;
+  margin-left: 30%;
   font-style: italic;
   text-decoration: underline;
 }
@@ -93,6 +94,10 @@ margin-bottom: 1em;
 fieldset {
   border: black solid;
   border-radius: 1em;
+}
+
+footer {
+    color: white;
 }
 
 #submit {
