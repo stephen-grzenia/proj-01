@@ -28,81 +28,34 @@
             <legend>Pre-Registration Form</legend>
 
               <section class="form-fields">
-                <h2>Basic Information</h2>
                 <ol>
                   <li id="input-name">
-                    <label for="name">*Full Name:</label>
+                    <label for="name">Full Name:<small>Required</small></label>
                     <input type="text" name="name" id="name" required="true"
                     placeholder="John JingleHiemer Smith"/>
                   </li>
-                  <li id="input-age">
-                    <label for="age">*Date of Birth:</label>
-                    <select name="Month">
-                      <option value="Jan" selected>Jan</option>
-                      <option value="Feb">Feb</option>
-                      <option value="Mar">Mar</option>
-                      <option value="April">Apr</option>
-                      <option value="May">May</option>
-                      <option value="June">June</option>
-                      <option value="July">July</option>
-                      <option value="Aug">Aug</option>
-                      <option value="Sep">Sep</option>
-                      <option value="Oct">Oct</option>
-                      <option value="Nov">Nov</option>
-                      <option value="Dec">Dec</option>
-                    </select>
-                    <select>
-                      <option value="1" selected>1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                      <option value="4">4</option>
-                      <option value="5">5</option>
-                      <option value="6">6</option>
-                      <option value="7">7</option>
-                      <option value="8">8</option>
-                      <option value="9">9</option>
-                      <option value="10">10</option>
-                      <option value="11">11</option>
-                      <option value="12">12</option>
-                      <option value="13">13</option>
-                      <option value="14">14</option>
-                      <option value="15">15</option>
-                      <option value="16">16</option>
-                      <option value="17">17</option>
-                      <option value="18">18</option>
-                      <option value="19">19</option>
-                      <option value="20">20</option>
-                      <option value="21">21</option>
-                      <option value="22">22</option>
-                      <option value="23">23</option>
-                      <option value="24">24</option>
-                      <option value="25">25</option>
-                      <option value="26">26</option>
-                      <option value="27">27</option>
-                      <option value="28">28</option>
-                    </select>
-                    <select>
-                      <option value="1995" selected>1995</option>
-                    </select>
+                  <li id="input-email">
+                    <label for="email">E-mail Address:<b>Required</b></label>
+                    <input type="email" name="email" id="email" required="true"
+                    placeholder="name@example.com" pattern="^.+@.+$"/>
                   </li>
                 </ol>
-                <h2>Contact Information</h2>
-                  <ol>
-                    <li id="input-email">
-                      <label for="email">*E-mail Address:</label>
-                      <input type="email" name="email" id="email" required="true"
-                      placeholder="name@example.com" pattern="^.+@.+$"/>
-                    </li>
-                  </ol>
               </section>
 
               <section class="ckbox">
-                <input type="checkbox" id="news" value="news"/>
-                <label for="news">Sign-up to receive our newsletter</label>
+                <ol>
+                  <li>
+                    <input type="checkbox" id="news" value="news"/>
+                    <label for="news">Sign-up to receive our newsletter</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="age-verification" value="verification"/>
+                    <label for="news">"I am 13 years old or older."</label>
+                  </li>
+                </ol>
               </section>
 
               <input type="submit" name="submit" id="submit" value="Sign-up" />
-              <p> * indicates required fields </p>
 
             </fieldset>
           </form>

@@ -23,11 +23,11 @@ h1 {
   line-height: 2.0736em;
 }
 
-h2 {
+/*h2 {
   font-size: 1.44em;
   line-height: 1.728em;
   padding: 0.2em;
-}
+}*/
 
 ul,
 li {
@@ -40,8 +40,9 @@ footer {
 }
 
 legend {
-  margin-top: 2em;
-  margin-left: 30%;
+  margin-top: 3.3em;
+  margin-bottom: 2em;
+  margin-left: 6em;
   font-style: italic;
   text-decoration: underline;
 }
@@ -53,16 +54,19 @@ legend {
   width: 65%;
 }
 
+.form-fields input {
+  margin-bottom: 0.5em;
+}
+
 .signup {
   width: 98%;
   margin-left: 1%;
 }
 
-.ckbox label,
-.ckbox input {
-  display: inline;
+.ckbox label, .ckbox input{
   margin-top: 1em;
 }
+
 
  .signup p {
 margin-bottom: 1em;
@@ -80,9 +84,10 @@ margin-bottom: 1em;
 #submit {
   padding: 0.625em;
   margin-bottom: 1em;
-  width: 8em;
+  width: 8.5em;
   margin-top: 5%;
-  margin-left: 22.5%;
+  margin-left: 5em;
+  margin-right: 5em;
   font-size: 1.125em;
   text-align: center;
 }
@@ -101,6 +106,10 @@ footer {
     color: white;
 }
 
+#fieldset {
+  background-color: #aeadad;
+}
+
 #submit {
   color: #000000;
   background-color: #00c5ff;
@@ -112,7 +121,8 @@ footer {
 
 .signup-desc p{
   color: white;
-  text-shadow: 0 0 3px black;
+  text-shadow: 6px 6px 6px black;
+
 }
 
 /* =========== OTHER SCREEN SIZES ======*/
@@ -142,6 +152,11 @@ li {
 
 footer {
 padding-top: 10%;
+}
+
+.signup-desc p{
+  color: white;
+  text-shadow: 6px 6px 6px black;
 }
 
 #main {
