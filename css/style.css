@@ -11,23 +11,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* base screen size is iphone S5/Google Pixel*/
 html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
-  font-size: 0.833em; /*15px @ 18px*/ /* 18 px = 1em minor third*/
-  line-height: 1em;
+  font-size: 1em; /* @ 16px*/ /* minor third*/
+  line-height: 1.2em;
   background-image: url("../images/3D.jpg");
   width: 100%;
 }
 
 h1 {
   text-align: center;
-  font-size: 1.728em;
-  line-height: 2.0736em;
-}
-
-/*h2 {
   font-size: 1.44em;
   line-height: 1.728em;
-  padding: 0.2em;
-}*/
+}
 
 ul,
 li {
@@ -39,12 +33,15 @@ footer {
   padding-top: 50%;
 }
 
-legend {
-  margin-top: 3.3em;
-  margin-bottom: 2em;
-  margin-left: 6em;
-  font-style: italic;
-  text-decoration: underline;
+/*legend {
+  width: 10em;
+  font-size: 1.8em;
+*/
+
+}
+
+input {
+box-sizing: border-box;
 }
 
 .form-fields label,
@@ -59,8 +56,7 @@ legend {
 }
 
 .signup {
-  width: 98%;
-  margin-left: 1%;
+  width: 100%;
 }
 
 .ckbox label, .ckbox input{
@@ -77,8 +73,8 @@ margin-bottom: 1em;
   padding-right: 1em;
 }
 
-#fieldset {
-  background-color: #aeadad;
+fieldset {
+  border-radius: 1em;
 }
 
 #submit {
@@ -86,8 +82,7 @@ margin-bottom: 1em;
   margin-bottom: 1em;
   width: 8.5em;
   margin-top: 5%;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: 4.5em;
   font-size: 1.125em;
   text-align: center;
 }
@@ -97,17 +92,23 @@ margin-bottom: 1em;
 /* =========== INTERACTIONS ========*/
 
 /* =========== DECORATIONS =========*/
-fieldset {
-  border: black solid;
-  border-radius: 1em;
-}
 
 footer {
     color: white;
 }
 
+legend {
+  font-style: italic;
+  text-decoration: underline;
+  background-color: #aeadad;
+  border-right: black solid;
+  border-top: black solid;
+  border-left: black solid;
+}
+
 #fieldset {
   background-color: #aeadad;
+  border: black solid;
 }
 
 #submit {
