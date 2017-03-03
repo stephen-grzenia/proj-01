@@ -193,15 +193,16 @@ textarea {
 /* base screen size is iphone S5/Google Pixel*/
 
 html {
-  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
   font-size: 1em; /* @ 16px*/ /* minor third*/
   line-height: 1.2em;
-  background-color: green;
+  background-color: #544C3C;
   /*background-image: url("../images/3D.jpg");*/
   width: 100%;
 }
 
 h1 {
+  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
   text-align: center;
   font-size: 2.369em;
   line-height: 1.003em;
@@ -214,6 +215,7 @@ li {
 
 footer {
   padding-top: 50%;
+  font-size: 0.8em;
 }
 
 input,
@@ -249,8 +251,8 @@ input[type="checkbox"] + label {
 }
 
 .signup {
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .ckbox label, .ckbox input{
@@ -281,7 +283,7 @@ fieldset {
   padding: 0.625em;
   margin-bottom: 1em;
   width: 8.5em;
-  margin-top: 5%;
+  margin-top: 1.2em;
   font-size: 1.125em;
   text-align: center;
 }
@@ -346,8 +348,6 @@ html {
 h1 {
   font-size: 3.157em; /* 89.764 / 28.43 */
   line-height: 0.757em; /* 68 / 89.746 */
-  padding-top: 1em;
-  margin: 0em;
 }
 
 ul,
@@ -365,7 +365,7 @@ padding-top: 10%;
 
 #main {
       min-height: 31.25em;
-      margin-top: 15%;
+      margin-top: 3em;
       padding: 0em;
       display: flex;
       flex-flow: row;
