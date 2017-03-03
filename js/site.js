@@ -17,16 +17,16 @@ jQuery(function($) {
     }
   });
 
-
-  function submit() {
+//function to reset the form
+  function resetForm() {
     $('#form')[0].reset();
   }
 
+//function when the submit button is clicked an alert will appear and then call the resetForm function
     $('#form').submit(function(event) {
       alert('Thank you for supporting us! Look forward to our developments!');
       event.preventDefault();
 
-      submit();
+      resetForm();
   });
-
 });

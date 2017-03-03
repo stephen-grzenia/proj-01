@@ -193,7 +193,7 @@ textarea {
 /* base screen size is iphone S5/Google Pixel*/
 
 html {
-  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
   font-size: 1em; /* @ 16px*/ /* minor third*/
   line-height: 1.2em;
   background-color: #544C3C;
@@ -202,7 +202,7 @@ html {
 }
 
 h1 {
-  font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
   text-align: center;
   font-size: 2.369em;
   line-height: 1.003em;
@@ -221,7 +221,7 @@ footer {
 
 input,
 label {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #button {
@@ -229,17 +229,10 @@ box-sizing: border-box;
 }
 
 .form-fields label,
-.form-fields input  {
+.form-fields input {
   display: block;
   width: 85%;
   margin-left: 5%;
-  cursor: pointer;
-}
-
-
-input[type="checkbox"],
-input[type="checkbox"] + label {
-  display: inline;
   cursor: pointer;
 }
 
@@ -256,11 +249,11 @@ input[type="checkbox"] + label {
   margin-left: 10%;
 }
 
-.ckbox label, .ckbox input{
+.ckbox label, .ckbox input {
   margin-top: 1em;
 }
 
-.ckbox input{
+.ckbox input {
   margin-left: 6%;
 }
 
@@ -268,8 +261,14 @@ input[type="checkbox"] + label {
   display: block;
 }
 
- .signup p {
-margin-bottom: 1em;
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  display: inline;
+  cursor: pointer;
+}
+
+.signup p {
+  margin-bottom: 1em;
 }
 
 .signup-desc p {
@@ -309,7 +308,7 @@ fieldset {
 /* =========== DECORATIONS =========*/
 
 footer {
-    color: white;
+  color: white;
 }
 
 #fieldset {
@@ -332,76 +331,75 @@ footer {
 }
 
 /* =========== OTHER SCREEN SIZES ======*/
-@media screen and (min-width: 62.5em) /*starting to get into laptop realm*/
-{
+/*starting to get into laptop realm*/
+@media screen and (min-width: 62.5em) {
 
-html {
-  font-size: 1.777em; /*28.43 / 16 */
-  line-height: 1.19em; /* 34 / 28.43 */
-}
+  html {
+    font-size: 1.777em; /*28.43 / 16 */
+    line-height: 1.19em; /* 34 / 28.43 */
+  }
 
-h1 {
-  font-size: 3.157em; /* 89.764 / 28.43 */
-  line-height: 0.757em; /* 68 / 89.746 */
-  padding-top: 2%;
-}
+  h1 {
+    font-size: 3.157em; /* 89.764 / 28.43 */
+    line-height: 0.757em; /* 68 / 89.746 */
+    padding-top: 2%;
+  }
 
-ul,
-li {
-  list-style-type: none;
-  padding-bottom: 1em;
-}
+  ul,
+  li {
+    list-style-type: none;
+    padding-bottom: 1em;
+  }
 
-footer {
-padding-top: 10%;
-}
+  footer {
+    padding-top: 10%;
+  }
 
 
-/* ========= FLEX BOX RULES ==========*/
+  /* ========= FLEX BOX RULES ==========*/
 
-#main {
-      min-height: 31.25em;
-      margin-top: 3em;
-      padding: 0em;
-      display: flex;
-      flex-flow: row;
-}
-#main > .signup-desc {
-      margin: 0.25em;
-      padding-left: 0.3125em;
-      padding-right: 0.3125em;
-      border-radius: 0.4375em;
-      flex: 3 1 60%;
-      order: 1;
+  #main {
+    min-height: 31.25em;
+    margin-top: 3em;
+    /*padding: 0em;*/
+    display: flex;
+    flex-flow: row;
+  }
+  #main > .signup-desc {
+    margin: 0.25em;
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+    border-radius: 0.4375em;
+    flex: 3 1 60%;
+    order: 1;
   }
 
   #main > .signup {
-      margin: 0.375em;
-      padding-left: 0.3125em;
-      padding-right: 0.3125em;
-      flex: 1 6 30%;
-      order: 2;
+    margin: 0.375em;
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+    flex: 1 6 30%;
+    order: 2;
   }
 
 }
 
-@media screen and (min-width: 37.5em) /*tablets or very large phones*/
-{
-/*
-.form-fields {
-  min-height: 0.625em;
-  display: inline-flex;
-}
+/*tablets or very large phones*/
+@media screen and (min-width: 37.5em) {
+  /*
+  .form-fields {
+    min-height: 0.625em;
+    display: inline-flex;
+  }
 
-.input-email {
-  padding-left: 3.5em;
-}
+  .input-email {
+    padding-left: 3.5em;
+  }
 
-.form-fields label,
-.form-fields input  {
-  width: 12em;
-}
+  .form-fields label,
+  .form-fields input  {
+    width: 12em;
+  }
 
-
+  */
 }
-*/
