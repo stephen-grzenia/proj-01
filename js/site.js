@@ -2,7 +2,7 @@
 $.noConflict();
 
 // jQuery 3.x-style ready event and locally scoped $
-jQuery(function($) {
+/*jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 
@@ -17,9 +17,16 @@ jQuery(function($) {
     }
   });
 
+*/
+  function submit() {
+    $('#form')[0].reset();
+  }
 
-$('#submit').onClick(alert('Thank you for signing up! Look forward to hearing from us!'));
+    $('#form').submit(function(event) {
+      alert('Thank you for supporting us! Look forward to our developments!');
+      event.preventDefault();
 
-
+      submit();
+  });
 
 });

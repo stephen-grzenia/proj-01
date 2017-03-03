@@ -6,7 +6,7 @@
     content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <title> Home Page Sign-up </title>
     <link rel="stylesheet" media="screen" href="css/style.css" />
-    <link rel="stylesheet" href="http://basehold.it/18/ffffff"/>
+    <link rel="stylesheet" href="http://basehold.it/34/ffffff"/>
   </head>
 
   <body>
@@ -19,26 +19,26 @@
         </h1>
           <p>
             Sign up to pre-register and recieve emails on developments for a really
-            cool mobile game that will maybe sorta be released at some point.
+            cool mobile game that will maybe sorta be released at some point. Please note that this game is in pre-alpha, so there is not much description on the game itself. Site will be updated along with the project itself.
           </p>
         </section>
 
       <section class="signup">
-        <form method="get" action="#null" id="form" class="form">
+        <form method="get" action="#null" id="form">
           <fieldset id="fieldset">
               <section class="form-fields">
-                <ol>
-                  <li id="input-name">
+
+                  <li id="input-name" class="input-name">
                     <label for="name">Full Name:</label>
                     <input type="text" name="name" id="name" required="true"
                     placeholder="John JingleHiemer Smith"/>
                   </li>
-                  <li id="input-email">
+                  <li id="input-email" class="input-email">
                     <label for="email">E-mail Address:</label>
                     <input type="email" name="email" id="email" required="true"
                     placeholder="name@example.com" pattern="^.+@.+$"/>
                   </li>
-                </ol>
+
               </section>
 
               <section class="ckbox">
@@ -54,8 +54,9 @@
                 </ol>
               </section>
 
+            <section id="button">
               <input type="submit" name="submit" id="submit" value="Sign-up" class="clearForm" />
-
+            </section>
             </fieldset>
           </form>
         </section>
