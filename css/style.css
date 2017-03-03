@@ -10,8 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* https://github.com/necolas/normalize.css */
 
 
-/* Forms
-   ========================================================================== */
+/* Forms ================================================================ */
 
 /**
  * 1. Change the font styles in all browsers (opinionated).
@@ -182,18 +181,22 @@ textarea {
 
 /* =========== BASE STYLES ===========*/
 /* base screen size is iphone S5/Google Pixel*/
+
 html {
   font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
   font-size: 1em; /* @ 16px*/ /* minor third*/
   line-height: 1.2em;
-  background-image: url("../images/3D.jpg");
+  background-color: green;
+  /*background-image: url("../images/3D.jpg");*/
   width: 100%;
 }
 
 h1 {
   text-align: center;
   font-size: 1.44em;
-  line-height: 1.728em;
+  line-height: 1.6em;
+  margin-top: 1em;
+  padding-top: 1.06em;
 }
 
 ul,
@@ -206,36 +209,50 @@ footer {
   padding-top: 50%;
 }
 
-/*legend {
-  width: 10em;
-  font-size: 1.8em;
-*/
-
-}
-
 input {
 box-sizing: border-box;
 }
 
+
 .form-fields label,
-.form-fields input {
+.form-fields input  {
   display: block;
   box-sizing: border-box;
-  width: 65%;
+  width: 85%;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  display: inline;
+  cursor: pointer;
 }
 
 .form-fields input {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  /*font-size: 1.4em;*/
+}
+
+.form-fields label {
+  padding-top: 0.5em;
+  /*font-size: 1.2em;*/
 }
 
 .signup {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .ckbox label, .ckbox input{
   margin-top: 1em;
+  margin-left: 5%;
 }
 
+.ckbox label {
+  display: block;
+}
 
  .signup p {
 margin-bottom: 1em;
@@ -244,6 +261,8 @@ margin-bottom: 1em;
 .signup-desc p {
   padding-left: 1em;
   padding-right: 1em;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 fieldset {
@@ -255,7 +274,7 @@ fieldset {
   margin-bottom: 1em;
   width: 8.5em;
   margin-top: 5%;
-  margin-left: 4.5em;
+  margin-left: 10%;
   font-size: 1.125em;
   text-align: center;
 }
@@ -263,6 +282,16 @@ fieldset {
 /* =========== LAYOUT STYLES ========*/
 
 /* =========== INTERACTIONS ========*/
+
+.hasjs input[type="submit"] {
+  position: absolute;
+  left: -100000em;
+}
+
+.hasjs input[type="submit"].active {
+  position: static;
+}
+
 
 /* =========== DECORATIONS =========*/
 
@@ -309,14 +338,17 @@ html {
 }
 
 h1 {
-  font-size: 44.79px;
+  font-size: 2.488em;
   line-height: 53.75px;
+  padding-top: 1em;
+  margin: 0em;
+
 }
 
-h2 {
+/*h2 {
   font-size: 31.104px;
   line-height: 37.32px;
-}
+}*/
 
 ul,
 li {

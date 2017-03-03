@@ -17,4 +17,9 @@ jQuery(function($) {
     }
   });
 
+
+$('#submit').onClick(alert('Thank you for signing up! Look forward to hearing from us!'));
+
+
+
 });
