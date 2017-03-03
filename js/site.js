@@ -2,7 +2,7 @@
 $.noConflict();
 
 // jQuery 3.x-style ready event and locally scoped $
-/*jQuery(function($) {
+jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
 
@@ -17,7 +17,7 @@ $.noConflict();
     }
   });
 
-*/
+
   function submit() {
     $('#form')[0].reset();
   }
